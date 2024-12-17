@@ -9,7 +9,7 @@ class UseCaseTest {
     @Test
     public void testCreateUseCasE(){
         assertNotNull(new UseCase());
-        assertNotNull(new UseCase().execut());
+        assertNotNull(new UseCase().execute());
     }
 
 }
